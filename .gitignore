@@ -20,6 +20,3 @@ twitter_api_rails_args.txt
 
 # for VIM
 *.swp
-
-# for security issue
-database.yml
