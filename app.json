@@ -1,6 +1,6 @@
 {
   "name": "awesome-event",
   "scripts": {
-      "postdeploy": "bundle exec rake db:setup"
+      "postdeploy": "bundle exec rake db:migrate"
     }
 }
