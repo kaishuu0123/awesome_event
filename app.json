@@ -1,0 +1,6 @@
+{
+  "name": "awesome-event",
+  "scripts": {
+      "postdeploy": "bundle exec rake db:setup"
+    }
+}
