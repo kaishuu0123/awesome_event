@@ -19,6 +19,8 @@ Rails.application.routes.draw do
     resources :tickets
   end
 
+  match '*path' => 'application#error404', via: :all
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
