@@ -42,9 +42,12 @@ gem 'omniauth-twitter', '~> 1.0.1'
 
 gem 'pry-rails', :group => :development
 
-group :development do
+group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
+  # Rspec
+  gem 'rspec-rails', '3.0.2'
 end
 
 group :production do
